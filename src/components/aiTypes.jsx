@@ -55,7 +55,7 @@ function AiTypes() {
   return (
     <section id='types' className='app-container py-16'>
       <div className='text-center mb-12'>
-        <span className=' section-subheader'>AI Types</span>
+        <span className=' section-subheader text-xl'>AI Types</span>
         <h2 className='section-header'>
           Discover the different types of {""} 
           <span className=' gradient-text'>Artificial Intelligence</span>

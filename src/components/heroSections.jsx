@@ -30,7 +30,7 @@ function HeroSections() {
             <div className="pt-4 flex items-center space-x-4">
             <div className=' flex -space-x-2'>
               {images.map((img, i) => (
-                <img className ="avatar" key={i} src={img}  alt={`User ${i + 1}`} />
+                <img className ="avatar" key={i} src={img}  alt={`User ${i + 1}`} /*Template String *//>
               ))}
             </div>
             <p className=' text-sm font-medium text-gray-600'>Trusted by industry leaders

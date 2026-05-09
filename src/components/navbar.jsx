@@ -27,7 +27,7 @@ function Navbar() {
                 {link.name}
                 </a>
             ))}
-              <a href='#' className='nav-btn'>Get Started</a>
+              <a href='#' className='nav-btn'>Start Now</a>
         </div>
 
 
@@ -51,7 +51,7 @@ function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a href='#' className='mobile-nav-btn'>Get Started</a>
+            <a href='#' className='mobile-nav-btn'>Start Now</a>
           </div>
         )}
     </nav>
