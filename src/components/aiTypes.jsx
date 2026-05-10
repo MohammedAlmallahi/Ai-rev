@@ -67,7 +67,7 @@ function AiTypes() {
 
 
 
-      <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+      <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  md:hover:cursor-pointer'>
         {aiTypes.map((type) => (
           <article key={type.title} className='ai-type-card'>
             <img src={type.image} alt={type.title} className=' ai-type-card-image'/>
